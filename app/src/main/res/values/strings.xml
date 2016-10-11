@@ -90,4 +90,7 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
+    <string name="scrolling_activity">ScrollingActivity</string>
+    <string name="switch_activity">SwitchActivity</string>
+    <string name="first_custom">简单自定义</string>
 </resources>

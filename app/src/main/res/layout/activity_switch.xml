@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ys.yoosir.nestedscrolldemo.SwitchActivity">
+
+
+
+
+        <FrameLayout
+            android:id="@+id/up_screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_light"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <android.support.v4.widget.NestedScrollView
+                android:id="@+id/up_scroll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </android.support.v4.widget.NestedScrollView>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/down_screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <android.support.v4.widget.NestedScrollView
+                android:id="@+id/down_scroll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </android.support.v4.widget.NestedScrollView>
+        </FrameLayout>
+
+</android.support.design.widget.CoordinatorLayout>
