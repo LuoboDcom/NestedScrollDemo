@@ -27,6 +27,21 @@
         />
 
     <Button
+        android:id="@+id/btn_imitate_uc_fold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/uc_fold"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btn_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/avatar_text"
+        android:onClick="onClick"
+        />
+
+    <Button
         android:id="@+id/btn_switch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

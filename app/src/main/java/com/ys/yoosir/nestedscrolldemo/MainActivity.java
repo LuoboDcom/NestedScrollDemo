@@ -25,6 +25,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_first_custom:
                 startActivity(new Intent(this,CustomFirstBehaviorActivity.class));
                 break;
+            case R.id.btn_imitate_uc_fold:
+                startActivity(new Intent(this,ImitateUCBehaviorActivity.class));
+                break;
+            case R.id.btn_avatar:
+                startActivity(new Intent(this,AvatarBehaviorActivity.class));
+                break;
         }
     }
 }

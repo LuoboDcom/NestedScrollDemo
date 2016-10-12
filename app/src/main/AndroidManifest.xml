@@ -23,7 +23,14 @@
         <activity
             android:name=".SwitchActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".CustomFirstBehaviorActivity"></activity>
+        <activity android:name=".CustomFirstBehaviorActivity" />
+        <activity android:name=".ImitateUCBehaviorActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity android:name=".AvatarBehaviorActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+
     </application>
 
 </manifest>
