@@ -11,7 +11,8 @@
     <FrameLayout
         android:id="@+id/up_screen"
         android:layout_width="match_parent"
-        android:layout_height="20dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:background="@android:color/holo_blue_light">
 
         <ImageView
@@ -25,7 +26,8 @@
     <FrameLayout
         android:id="@+id/down_screen"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:background="@android:color/holo_red_light">
 
         <ImageView
